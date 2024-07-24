@@ -10,7 +10,7 @@ function Header() {
   const cartarray=useSelector((state)=>state.cartReducer)
   return (
     <>
-    <Navbar expand="lg" className="bg-primary w-100"  style={{position:"fixed",top:"0px",zIndex:"1"}}>
+    <Navbar expand="lg" className="bg-primary">
       <Container>
         <Link to={'/'}><Navbar.Brand className='text-light' ><FontAwesomeIcon icon={faCartShopping} beat className='me-2'/>E-Cart</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
