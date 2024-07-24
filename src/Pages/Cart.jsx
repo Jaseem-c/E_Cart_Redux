@@ -87,7 +87,7 @@ function Cart() {
             </div> :
                 <div>
                     <div className='d-flex justify-content-center alihn-items-center ' style={{ width: "100%", height: "100%" }} >
-                        <img src="https://i.pinimg.com/originals/f6/e4/64/f6e464230662e7fa4c6a4afb92631aed.png" alt="no image" style={{ width: "100%" }} />
+                        <img src="https://aleointernational.com/img/empty-cart-yellow.png" alt="no image" style={{ width: "100%" }} />
                     </div>
                 </div>
             }
